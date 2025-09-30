@@ -30,28 +30,4 @@ The system includes the following main entities:
 - **One-to-Many**: Member → Borrowing Records, Member → Reservations
 - **One-to-Many**: Staff → Borrowing Records (processed by)
 
-## Files Structure
 ```
-├── schema/
-│   ├── 01_create_database.sql
-│   ├── 02_create_tables.sql
-│   ├── 03_create_indexes.sql
-│   └── 04_create_triggers.sql
-├── data/
-│   ├── insert_sample_data.sql
-│   └── bulk_data_import.sql
-├── queries/
-│   ├── basic_queries.sql
-│   ├── advanced_queries.sql
-│   └── reports.sql
-├── procedures/
-│   ├── stored_procedures.sql
-│   └── functions.sql
-└── views/
-    └── create_views.sql
-```
-
-## Getting Started
-1. Run the schema files in order (01-04)
-2. Insert sample data using data/insert_sample_data.sql
-3. Test with queries in the queries/ directory
